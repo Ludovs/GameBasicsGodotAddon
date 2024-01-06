@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://gtmyvs33e2qe"]
+
+[ext_resource type="Script" path="res://addons/gamebasics/components/flash_component.gd" id="1_w1v7l"]
+[ext_resource type="Shader" path="res://addons/gamebasics/hit_flash.gdshader" id="2_dc3vo"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_f1u66"]
+shader = ExtResource("2_dc3vo")
+shader_parameter/active = false
+shader_parameter/tint = Color(255, 255, 255, 255)
+
+[node name="FlashComponent" type="Node"]
+script = ExtResource("1_w1v7l")
+flash_material = SubResource("ShaderMaterial_f1u66")
+flash_color = Color(1, 1, 1, 1)

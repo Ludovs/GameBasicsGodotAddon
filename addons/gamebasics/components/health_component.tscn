@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://l3mwyr7vc1bs"]
+
+[ext_resource type="Script" path="res://addons/gamebasics/components/health_component.gd" id="1_kv12v"]
+
+[node name="HealthComponent" type="Node"]
+script = ExtResource("1_kv12v")
